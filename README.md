@@ -9,14 +9,14 @@ The key aims of this work are:
 2. Improve the performance by dealing with the class imbalance issues using SMOTE
 3. Compare multiple algorithms for machine learning and compare those for their predicting ability in events of death  
 4. Explore key clinical features in heart failure prognosis.
-5. A decision-support system** to support healthcare professionals in the effective management of high-risk patients.  
+5. A decision-support system to support healthcare professionals in the effective management of high-risk patients.  
 ------------------------------------------------
 
 Methodology
 
 1. Data Collection & Preprocessing 
 
-The dataset for this research is comprised of medical records of **299 heart failure patients** from Allied Hospital and the Faisalabad Institute of Cardiology, Pakistan. It comprises 13 clinical features, including: 
+The dataset for this research is comprised of medical records of 299 heart failure patients from Allied Hospital and the Faisalabad Institute of Cardiology, Pakistan. It comprises 13 clinical features, including: 
 - Age 
 - Sex 
 - Smoking status 
@@ -56,16 +56,16 @@ Matthews Correlation Coefficient (MCC) – ensures proper balancing of metrics f
 --- 
 Results & Discussion
 
-Feature analysis showed that **ejection fraction and serum creatinine levels were the most significant predictors of heart failure mortality. Patients who had lower ejection fractions and higher levels of serum creatinine exhibited a significantly increased risk of death.  The **visualization through scatter plots showed that the elders had lower platelet counts and higher mortality. The SMOTE-enhanced models were better than the conventional models in terms of identifying high-risk patients with excellent precision.
+Feature analysis showed that ejection fraction and serum creatinine levels were the most significant predictors of heart failure mortality. Patients who had lower ejection fractions and higher levels of serum creatinine exhibited a significantly increased risk of death.  The visualization through scatter plots showed that the elders had lower platelet counts and higher mortality. The SMOTE-enhanced models were better than the conventional models in terms of identifying high-risk patients with excellent precision.
 
-Among all models, Random Forest and Gradient Boosting** performed the best in terms of overall performance, giving a high AUC score, strong recall, and balanced precision.
+Among all models, Random Forest and Gradient Boosting performed the best in terms of overall performance, giving a high AUC score, strong recall, and balanced precision.
 
-This shows that the integration of machine learning with SMOTE improves much on the heart failure death event prediction. The proposed models may be applied as useful decision-support tools to healthcare professionals in early identification of high-risk patients and taking preventive measures.  Future work** can be:  
+This shows that the integration of machine learning with SMOTE improves much on the heart failure death event prediction. The proposed models may be applied as useful decision-support tools to healthcare professionals in early identification of high-risk patients and taking preventive measures.  Future work can be:  
 
 - More patients from other demographics should be included in the dataset.  - Deep learning techniques for better accuracy can be considered.
 - Consolidation of time-series data to monitor the patient's health over time. 
-- Creating an intuitive web application** to present the predictions to both doctors and patients. 
-With the power of machine learning, this work opens avenues for **enhanced clinical decision-making and patient outcomes in the management of heart failure. 
+- Creating an intuitive web application to present the predictions to both doctors and patients. 
+With the power of machine learning, this work opens avenues for enhanced clinical decision-making and patient outcomes in the management of heart failure. 
 
 ---
 
